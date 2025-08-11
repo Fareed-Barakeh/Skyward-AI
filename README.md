@@ -3,16 +3,18 @@ Skyward AI is a two-player strategy game where each player commands airplanes wi
 
 # Overview
 Airplane Tactics is an original, turn-based board game featuring positional movement, directional facing, and ranged attacks. Each player commands a small squadron of aircraft and manages limited rockets to outmaneuver and eliminate the opponent. The last player with at least one airplane on the board wins.
-Current AI Work
 
-# Implemented: 
+
+# Current AI Work
+
+Implemented: 
 heuristic AI using the Minimax algorithm.
-# In progress:
+In progress:
 upgrade to Alpha–Beta pruning for deeper search within the same compute budget.
-# Planned: 
+Planned: 
 neuro-symbolic AI that combines learned evaluation (neural model) with symbolic search (Minimax/Alpha–Beta), enabling stronger heuristics and adaptive strategy.
 
-# Rules (Concise)
+# Rules 
 Each player starts with 8 airplanes.
 Each airplane can carry up to 2 rockets.
 Airplanes have facing and can rotate clockwise or counter-clockwise.
